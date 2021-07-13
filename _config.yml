@@ -31,9 +31,15 @@ github_username:  niklasbt
 remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 theme_config:
-  appearance: "light"
+  appearance: "auto"
+  back_home_text: ".."
+  show_description: false
+
+sass:
+  style: :compressed
 
 
 
