@@ -8,6 +8,9 @@ entries:
   - title: contact
     url: contact
 
+  - title: publications
+    url: publications
+
   # - title: info
   #   entries:
   #     - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
