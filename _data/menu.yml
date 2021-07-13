@@ -5,6 +5,9 @@ entries:
   - title: about
     url: about
 
+  - title: contact
+    url: contact
+
   # - title: info
   #   entries:
   #     - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
