@@ -34,7 +34,7 @@ plugins:
   - jekyll-seo-tag
 
 theme_config:
-  appearance: "auto"
+  appearance: "dark"
   back_home_text: ".."
   show_description: false
 
