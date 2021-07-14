@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coupling angular momenta. Part i."
-date: "%Y-%m-%d"
+date: 2021-07-14
 categories: spin coupling
 ---
 ### Mathematical Background
