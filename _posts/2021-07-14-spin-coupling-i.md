@@ -22,36 +22,36 @@ Sometimes, as below, we will take liberties with notation, if it is clear in con
 #### Complex vector spaces
 The types of sets that are the concern of quantum mechanics are built up from vector spaces (more specifically, [Hilbert spaces](https://en.wikipedia.org/wiki/Hilbert_space)). A `complex vector space` is a collection of elements ${v} \in V$ and two maps $+:V\times V \to V$ and $\cdot: \mathbb{C}\times V\to V$ that satisfies:
 	$$ \begin{align}
-		&\forall\ {v_1},{v_2} \in V,\ {v_1} + {v_2} \in V  \\
-		&\forall\  {v_1},{v_2},{v_3} \in V,\ ({v_1} + {v_2}) + {v_3} = {v_1} + ({v_2} + {v_3}) \\
-		&\forall\  {v_1},{v_2} \in V,\ {v_1} + {v_2} = {v_2} + {v_1}  \\
+		&\forall\ v_1,v_2 \in V,\ v_1 + v_2 \in V  \\
+		&\forall\  v_1,v_2,{v_3} \in V,\ (v_1 + v_2) + {v_3} = v_1 + (v_2 + {v_3}) \\
+		&\forall\  v_1,v_2 \in V,\ v_1 + v_2 = v_2 + v_1  \\
 		&\exists\  {0} \in V, \text{ such that } \forall\ {v} \in V,\ {v} + {0} = {v}  \\
 		&\forall\ {v} \in V,\ \exists\ {-v} \in V \text{ such that } {v} + ({-v}) = {0}
 	\end{align} $$
 and,
 	$$ \begin{align}
 	&\forall\ \alpha\in\mathbb{C},\ {v} \in V,\ \alpha\cdot{v} \in V \\
-	&\forall\ \alpha\in\mathbb{C},\ {v_1},{v_2} \in V,\ \alpha\cdot({v_1} + {v_2}) = \alpha\cdot{v_1} + \alpha\cdot{v_1} \\
+	&\forall\ \alpha\in\mathbb{C},\ v_1,v_2 \in V,\ \alpha\cdot(v_1 + v_2) = \alpha\cdotv_1 + \alpha\cdotv_1 \\
 	&\forall\ \alpha,\beta\in\mathbb{C},\ {v} \in V,\ (\alpha+\beta)\cdot{v} = \alpha\cdot{v} + \beta\cdot{v} \\
 	&\forall\ \alpha,\beta\in\mathbb{C},\ {v} \in V,\ (\alpha\beta)\cdot{v} = \alpha\cdot(\beta\cdot{v}) \\
 	&\forall\ v \in V,\ 1\in\mathbb{C},\ 1\cdot{v} = {v}\
 	\end{align} $$
 
-The function $({v_1},{v_2})\mapsto {v_1} + {v_2}$ is just addition in the normal sense, while $(\alpha,{v})\mapsto \alpha\cdot{v}$ is called `scalar multiplication`.
+The function $(v_1,v_2)\mapsto v_1 + v_2$ is just addition in the normal sense, while $(\alpha,{v})\mapsto \alpha\cdot{v}$ is called `scalar multiplication`.
 
 **Exercise:** Show that for $0 \in \mathbb{C}$, $0\cdot{v} = {0}$ for all ${v} \in V$.
 
 A standard example of a (real) vector space is again $\mathbb{R}^2$; the vectors are the ordered pairs $(a,b)$ while the scalars are simply the real numbers. We now introduce two central concepts to the algebra of vector spaces. The first is the idea of linear independence, and the second is the idea of a basis:
 
-> **Linear independence:** Let $\{{v_1},{v_1},\dots {v_m}\},$ be nonzero vectors in $V$. Then this set is called linearly independent if $\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
+> **Linear independence:** Let $\{v_1,v_1,\dots {v_m}\},$ be nonzero vectors in $V$. Then this set is called linearly independent if $\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
 	$$ \begin{equation*}
-		\alpha_1{v_1}+\dots+\alpha_m{v_m} = {0}
+		\alpha_1v_1+\dots+\alpha_m{v_m} = {0}
 	\end{equation*} $$
 we have $\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$.
 
 The term `independence` in this sense means that no vector in the set $\{{v_m}\}$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
-> **Spanning sets and bases:** Let $S = \{{v_1},{v_2},\dots {v_m}\}$, be a set of vectors in $V$. The *span* of $S$ is the set of all vectors ${v} \in V$ such that $\exists$ a set of scalars $\alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
+> **Spanning sets and bases:** Let $S = \{v_1,v_2,\dots {v_m}\}$, be a set of vectors in $V$. The *span* of $S$ is the set of all vectors ${v} \in V$ such that $\exists$ a set of scalars $\alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
 	$$\begin{equation*}
 		{v} = \sum_{i = 1}^m{\alpha_i{v_i}}
 	\end{equation*}$$
@@ -59,17 +59,17 @@ and denote this subset of $V$ by $\text{span} \ {S}$. If $\text{span} \ {S} = V$
 
 The following are some important theorems regarding the properties of bases. The key take away will be that, if a vector space has a finite basis, say with $n$ elements, then we know that any basis will have $n$ elements. Moreover, this provides a definition for the `dimension` of a vector space. Later, we will be considering only `finite dimensional vector spaces`, which can be defined as those vector spaces which possess finite spanning sets.
 
->**Lemma:** Let $\{{v_1},{v_2},\dots {v_n}\}$ be a linearly dependent set of vectors in $V$. Then there exists $k$ such that $1 < k \leq n$ such that ${v_k}$ is a linear combination of ${v_1},\dots {v_{k-1}}$.
+>**Lemma:** Let $\{v_1,v_2,\dots {v_n}\}$ be a linearly dependent set of vectors in $V$. Then there exists $k$ such that $1 < k \leq n$ such that ${v_k}$ is a linear combination of $v_1,\dots {v_{k-1}}$.
 
->**Exchange lemma:** Let $U = \{{u_1},{u_2},\dots {u_m}\}$ be a spanning set for the vector space $V$. Then if $\{{v_1},{v_2},\dots {v_n}\}$ is a linearly independent set of vectors in $V$, $n \leq m$.
+>**Exchange lemma:** Let $U = \{{u_1},{u_2},\dots {u_m}\}$ be a spanning set for the vector space $V$. Then if $\{v_1,v_2,\dots {v_n}\}$ is a linearly independent set of vectors in $V$, $n \leq m$.
 
 >**Corollary:** Let $V$ be a finite dimensional vector space. Then $V$ has a finite basis.
 
 >**Theorem:** If $V$ is a finite dimensional vector space, then any two bases of $V$ have the same number of elements.
-	>>*Proof:* Let $\{{v_1},{v_2},\dots {v_n}\}$ and $\{{u_1},{u_2},\dots {u_m}\}$ be two bases for $V$. Then by the exchange lemma, $n \leq m$ and $m \leq n \ \square$
+	>>*Proof:* Let $\{v_1,v_2,\dots {v_n}\}$ and $\{{u_1},{u_2},\dots {u_m}\}$ be two bases for $V$. Then by the exchange lemma, $n \leq m$ and $m \leq n \ \square$
 
 We are now in a position to define the dimension of a finite dimensional vector space: suppose $V$ is a vector space containing a basis with $n$ elements. Then the `dimension` of $V$ is $n$, denoted by $\dim{V} = n$. If $V = \{{0}\}$ we set $\dim{V} = 0$.
 
->**Theorem:** Let $V$ be an $n$-dimensional vector space and let $\{{v_1},{v_2},\dots {v_m}\}$ be a set of linearly independent vectors. Then $m \leq n$ and there exists at set of vectors ${v_{m+1}},\dots,{v_n}$ such that $\{{v_1},\dots {v_m},{v_{m+1}},\dots,{v_n}\}$ is a basis for $V$.
+>**Theorem:** Let $V$ be an $n$-dimensional vector space and let $\{v_1,v_2,\dots {v_m}\}$ be a set of linearly independent vectors. Then $m \leq n$ and there exists at set of vectors ${v_{m+1}},\dots,{v_n}$ such that $\{v_1,\dots {v_m},{v_{m+1}},\dots,{v_n}\}$ is a basis for $V$.
 
 This last theorem is very powerful. It says that we can always take a set of linearly independent vectors and "complete" it to form a basis.
