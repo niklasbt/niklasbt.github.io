@@ -55,7 +55,7 @@ The function $$(v_1,v_2)\mapsto v_1 + v_2$$ is just addition in the normal sense
 
 A standard example of a (real) vector space is again $$\mathbb{R}^2$$; the vectors are the ordered pairs $$(a,b)$$ while the scalars are simply the real numbers. We now introduce two central concepts to the algebra of vector spaces. The first is the idea of linear independence, and the second is the idea of a basis:
 
-> **Linear independence:** Let $$\{v_1,v_1,\dots v_m\},$$ be nonzero vectors in $$V$$. Then this set is called linearly independent if $$\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$$ such that $$alpha_1v_1+\dots+\alpha_mv_m = 0 $$ we have $$\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$$.
+> **Linear independence:** Let $$\{v_1,v_1,\dots v_m\},$$ be nonzero vectors in $$V$$. Then this set is called linearly independent if $$\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$$ such that $$\alpha_1v_1+\dots+\alpha_mv_m = 0 $$ we have $$\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$$.
 
 The term `independence` in this sense means that no vector in the set $$\{v_m\}$$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
