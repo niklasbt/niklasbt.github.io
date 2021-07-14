@@ -28,7 +28,11 @@ An important concept, which is developed further below, is how sets can be used 
 		a^2 = 0
 	$$
 
-$$ \begin{equation} a^2 = 0 \end{equation} $$
+$$
+	\begin{equation}
+		a^2 = 0
+	\end{equation}
+$$
 
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
