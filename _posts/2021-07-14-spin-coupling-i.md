@@ -34,6 +34,7 @@ Sometimes, as below, we will take liberties with notation, if it is clear in con
 
 #### Complex vector spaces
 The types of sets that are the concern of quantum mechanics are built up from vector spaces (more specifically, [Hilbert spaces](https://en.wikipedia.org/wiki/Hilbert_space)). A `complex vector space` is a collection of elements $v \in V$ and two maps $+:V\times V \to V$ and $\cdot: \mathbb{C}\times V\to V$ that satisfies:
+
 	$$ \begin{align}
 		&\forall\ v_1,v_2 \in V,\ v_1 + v_2 \in V  \\
 		&\forall\  v_1,v_2,{v_3} \in V,\ (v_1 + v_2) + {v_3} = v_1 + (v_2 + {v_3}) \\
