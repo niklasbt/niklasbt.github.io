@@ -42,6 +42,7 @@ theme_config:
 sass:
   style: :compressed
 
+footer_content: "Content"
 
 
 
