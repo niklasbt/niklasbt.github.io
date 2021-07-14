@@ -39,6 +39,17 @@ The types of sets that are the concern of quantum mechanics are built up from ve
 
 	$$ \begin{align} &\forall\ v_1,v_2 \in V,\ v_1 + v_2 \in V  \\ &\forall\  v_1,v_2,{v_3} \in V,\ (v_1 + v_2) + {v_3} = v_1 + (v_2 + {v_3}) \\ &\forall\  v_1,v_2 \in V,\ v_1 + v_2 = v_2 + v_1  \\ &\exists\  0 \in V, \text{ such that } \forall\ v \in V,\ v + 0 = v  \\ &\forall\ v \in V,\ \exists\ {-v} \in V \text{ such that } v + ({-v}) = 0 \end{align} $$
 
+	\begin{align}
+    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
+        \mathbb{E} & \Phi\left(1,
+        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
+        + \int_0^1 \sigma(s) \, dW_s
+    \right) \\\\\\\\
+        &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
+        \mathbb{E} u_s^2  \, ds
+    \bigg].
+\end{align}
+
 and,
 $$ \begin{align}
 	&\forall\ \alpha\in\mathbb{C},\ v \in V,\ \alpha\cdot{v} \in V \\
