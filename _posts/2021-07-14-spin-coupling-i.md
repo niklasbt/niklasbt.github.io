@@ -18,6 +18,12 @@ An important concept, which is developed further below, is how sets can be used 
 		\times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\}
 	\end{equation}
 
+	$$ \begin{equation}
+		\times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\}
+	\end{equation} $$
+
+	$$ \times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\} $$
+
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
 Sometimes, as below, we will take liberties with notation, if it is clear in context. For example, one can consider addition of elements of $\mathbb{N}$ to be a map $+:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ such that for $a,b\in\mathbb{N}$ we write $+(a,b) \equiv a + b$.
