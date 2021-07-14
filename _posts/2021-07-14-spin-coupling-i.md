@@ -43,15 +43,15 @@ The function $(v_1,v_2)\mapsto v_1 + v_2$ is just addition in the normal sense, 
 
 A standard example of a (real) vector space is again $\mathbb{R}^2$; the vectors are the ordered pairs $(a,b)$ while the scalars are simply the real numbers. We now introduce two central concepts to the algebra of vector spaces. The first is the idea of linear independence, and the second is the idea of a basis:
 
-> **Linear independence:** Let $\{v_1,v_1,\dots {v_m}\},$ be nonzero vectors in $V$. Then this set is called linearly independent if $\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
+> **Linear independence:** Let $\{v_1,v_1,\dots v_m\},$ be nonzero vectors in $V$. Then this set is called linearly independent if $\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
 	$$ \begin{equation*}
-		\alpha_1v_1+\dots+\alpha_m{v_m} = {0}
+		\alpha_1v_1+\dots+\alpha_mv_m = {0}
 	\end{equation*} $$
 we have $\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$.
 
-The term `independence` in this sense means that no vector in the set $\{{v_m}\}$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
+The term `independence` in this sense means that no vector in the set $\{v_m\}$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
-> **Spanning sets and bases:** Let $S = \{v_1,v_2,\dots {v_m}\}$, be a set of vectors in $V$. The *span* of $S$ is the set of all vectors ${v} \in V$ such that $\exists$ a set of scalars $\alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
+> **Spanning sets and bases:** Let $S = \{v_1,v_2,\dots v_m\}$, be a set of vectors in $V$. The *span* of $S$ is the set of all vectors ${v} \in V$ such that $\exists$ a set of scalars $\alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
 	$$\begin{equation*}
 		{v} = \sum_{i = 1}^m{\alpha_i{v_i}}
 	\end{equation*}$$
@@ -70,6 +70,6 @@ The following are some important theorems regarding the properties of bases. The
 
 We are now in a position to define the dimension of a finite dimensional vector space: suppose $V$ is a vector space containing a basis with $n$ elements. Then the `dimension` of $V$ is $n$, denoted by $\dim{V} = n$. If $V = \{{0}\}$ we set $\dim{V} = 0$.
 
->**Theorem:** Let $V$ be an $n$-dimensional vector space and let $\{v_1,v_2,\dots {v_m}\}$ be a set of linearly independent vectors. Then $m \leq n$ and there exists at set of vectors ${v_{m+1}},\dots,{v_n}$ such that $\{v_1,\dots {v_m},{v_{m+1}},\dots,{v_n}\}$ is a basis for $V$.
+>**Theorem:** Let $V$ be an $n$-dimensional vector space and let $\{v_1,v_2,\dots v_m\}$ be a set of linearly independent vectors. Then $m \leq n$ and there exists at set of vectors ${v_{m+1}},\dots,{v_n}$ such that $\{v_1,\dots v_m,{v_{m+1}},\dots,{v_n}\}$ is a basis for $V$.
 
 This last theorem is very powerful. It says that we can always take a set of linearly independent vectors and "complete" it to form a basis.
