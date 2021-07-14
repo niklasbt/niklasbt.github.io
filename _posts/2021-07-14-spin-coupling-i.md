@@ -22,11 +22,11 @@ Sometimes, as below, we will take liberties with notation, if it is clear in con
 
 #### Complex vector spaces
 The types of sets that are the concern of quantum mechanics are built up from vector spaces (more specifically the structure of a Hilbert space). A \textbf{complex vector space} is a collection of elements ${v} \in V$ and two maps $+:V\times V \to V$ and $\cdot: \mathbb{C}\times V\to V$ that satisfies:
-	\begin{align}
+	\begin{aligned}
 		&\forall\ {v_1},{v_2} \in V,\ {v_1} + {v_2} \in V \text{ (\textit{closure})} \\
 		&\forall\  {v_1},{v_2},{v_3} \in V,\ ({v_1} + {v_2}) + {v_3} = {v_1} + ({v_2} + {v_3}) \text{ (\textit{associativity})}\\
 		&\forall\  {v_1},{v_2} \in V,\ {v_1} + {v_2} = {v_2} + {v_1} \text{ (\textit{commutativity})} \\
 		&\exists\  {0} \in V, \text{ such that } \forall\ {v} \in V,\ {v} + {0} = {v} \text{ (\textit{identity})} \\
 		&\forall\ {v} \in V,\ \exists\ {-v} \in V \text{ such that } {v} + ({-v}) = {0} \text{ (\textit{additive inverses})}
-	\end{align}
+	\end{aligned}
 and,
