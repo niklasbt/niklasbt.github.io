@@ -19,7 +19,7 @@ An important concept, which is developed further below, is how sets can be used 
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
 Sometimes, as below, we will take liberties with notation, if it is clear in context. For example, one can consider addition of elements of $\mathbb{N}$ to be a map $+:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ such that for $a,b\in\mathbb{N}$ we write $+(a,b) \equiv a + b$.
-
+<!---
 #### Complex vector spaces
 The types of sets that are the concern of quantum mechanics are built up from vector spaces (more specifically the structure of a Hilbert space). A \textbf{complex vector space} is a collection of elements ${v} \in V$ and two maps $+:V\times V \to V$ and $\cdot: \mathbb{C}\times V\to V$ that satisfies:
 	\begin{align}
@@ -75,3 +75,4 @@ We are now in a position to define the dimension of a finite dimensional vector 
 \textbf{Theorem:} Let $V$ be an $n$-dimensional vector space and let $\{{v_1},{v_2},\dots {v_m}\}$ be a set of linearly independent vectors. Then $m \leq n$ and there exists at set of vectors ${v_{m+1}},\dots,{v_n}$ such that $\{{v_1},\dots {v_m},{v_{m+1}},\dots,{v_n}\}$ is a basis for $V$.
 
 This last theorem is very powerful. It says that we can always take a set of linearly independent vectors and ``complete'' it to form a basis.
+-->
