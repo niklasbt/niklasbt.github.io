@@ -4,7 +4,7 @@
 entries:
   - title: info
     entries:
-      - title: Personal website of [Niklas B. Thompson](\about\)
+      - title: "Personal website of <a href='\about'>Niklas B. Thompson</a>"
 
   - title: contact
     url: contact
