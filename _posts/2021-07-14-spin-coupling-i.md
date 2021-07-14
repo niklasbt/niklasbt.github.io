@@ -61,12 +61,12 @@ The following are some important theorems regarding the properties of bases. The
 
 >**Lemma:** Let $\{v_1,v_2,\dots {v_n}\}$ be a linearly dependent set of vectors in $V$. Then there exists $k$ such that $1 < k \leq n$ such that ${v_k}$ is a linear combination of $v_1,\dots {v_{k-1}}$.
 
->**Exchange lemma:** Let $U = \{{u_1},{u_2},\dots {u_m}\}$ be a spanning set for the vector space $V$. Then if $\{v_1,v_2,\dots {v_n}\}$ is a linearly independent set of vectors in $V$, $n \leq m$.
+>**Exchange lemma:** Let $U = \{u_1,u_2,\dots {u_m}\}$ be a spanning set for the vector space $V$. Then if $\{v_1,v_2,\dots {v_n}\}$ is a linearly independent set of vectors in $V$, $n \leq m$.
 
 >**Corollary:** Let $V$ be a finite dimensional vector space. Then $V$ has a finite basis.
 
 >**Theorem:** If $V$ is a finite dimensional vector space, then any two bases of $V$ have the same number of elements.
-	>>*Proof:* Let $\{v_1,v_2,\dots {v_n}\}$ and $\{{u_1},{u_2},\dots {u_m}\}$ be two bases for $V$. Then by the exchange lemma, $n \leq m$ and $m \leq n \ \square$
+	>>*Proof:* Let $\{v_1,v_2,\dots {v_n}\}$ and $\{u_1,u_2,\dots {u_m}\}$ be two bases for $V$. Then by the exchange lemma, $n \leq m$ and $m \leq n \ \square$
 
 We are now in a position to define the dimension of a finite dimensional vector space: suppose $V$ is a vector space containing a basis with $n$ elements. Then the `dimension` of $V$ is $n$, denoted by $\dim{V} = n$. If $V = \{{0}\}$ we set $\dim{V} = 0$.
 
