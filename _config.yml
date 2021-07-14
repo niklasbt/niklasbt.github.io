@@ -32,7 +32,11 @@ remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-math_engine: mathjax
+
+# Math
+kramdown:
+  math_engine: mathjax
+  use_math: true
 
 theme_config:
   appearance: "dark"
