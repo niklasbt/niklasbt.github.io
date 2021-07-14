@@ -42,9 +42,7 @@ theme_config:
 sass:
   style: :compressed
 
-compress_html:
-  clippings: all
-  blanklines: true 
+
 
 
 
