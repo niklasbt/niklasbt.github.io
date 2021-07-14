@@ -13,9 +13,9 @@ categories: spin coupling
 We will deal with `sets` and their elements; axiomatically, a set $A$ is a collection of objects. We denote that an object $a$ is a member or element of $A$ by writing $a \in A$. (E.g., the set of natural numbers $\mathbb{N}$ contains the integer 1, but not 0, i.e. $1 \in \mathbb{N}$ but $0 \notin \mathbb{N}$.) Given two sets, $A$ and $B$, we can define a correspondence or mapping of elements $a \in A$ to elements $b \in B$, such that each element $a$ is mapped uniquely to an element $b$. Such a map is called a `function`, and is denoted $f:A \to B$. We also write for $a \in A$, $a \mapsto f(a)$ for $f(a) \in B$ to denote that the element $a$ is mapped to $f(a)$ under the action of $f$. An important set for us will be the set of complex numbers, denoted $\mathbb{C}$.
 
 An important concept, which is developed further below, is how sets can be used to construct new sets. One straightforward way to do this is, given two sets $A$ and $B$, to define a new set composed of all ordered pairs $(a,b)$ of elements $a \in A$ and $b \in B$. This new set is called the `Cartesian or direct product` and is denoted,
-	\begin{equation}
+	$$ \begin{equation}
 		A \times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\}
-	\end{equation}
+	\end{equation} $$
 
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
@@ -50,12 +50,7 @@ A standard example of a (real) vector space is again $\mathbb{R}^2$; the vectors
 
 The term `independence` in this sense means that no vector in the set $\{v_m\}$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
-> **Spanning sets and bases:** Let $S = \{v_1,v_2,\dots v_m\}$, be a set of vectors in $V$. The *span* of $S$ is the set of all vectors $v \in V$ such that $\exists$ a set of scalars $\alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
->$$\begin{equation*}
-		v = \sum_{i = 1}^m{\alpha_i{v_i}}
-	\end{equation*}$$
->
-> and denote this subset of $V$ by $\text{span} \ {S}$. If $\text{span} \ {S} = V$ then $S$ is called a *spanning set* for V. A spanning set is called a *basis* if it is also linearly independent.
+> **Spanning sets and bases:** Let $S = \{v_1,v_2,\dots v_m\}$, be a set of vectors in $V$. The *span* of $S = \{ \sum_{i=1}^m{\alpha_iv_i} | \alpha_i \in \mathbb{C} \}$ Denote this subset of $V$ by $\text{span} \ {S}$. If $\text{span} \ {S} = V$ then $S$ is called a *spanning set* for V. A spanning set is called a *basis* if it is also linearly independent.
 
 The following are some important theorems regarding the properties of bases. The key take away will be that, if a vector space has a finite basis, say with $n$ elements, then we know that any basis will have $n$ elements. Moreover, this provides a definition for the `dimension` of a vector space. Later, we will be considering only `finite dimensional vector spaces`, which can be defined as those vector spaces which possess finite spanning sets.
 
