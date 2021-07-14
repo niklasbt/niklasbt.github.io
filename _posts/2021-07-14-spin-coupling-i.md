@@ -30,7 +30,7 @@ The types of sets that are the concern of quantum mechanics are built up from ve
 		&\forall\  v_1,v_2 \in V,\ v_1 + v_2 = v_2 + v_1  \\
 		&\exists\  0 \in V, \text{ such that } \forall\ v \in V,\ v + 0 = v  \\
 		&\forall\ v \in V,\ \exists\ {-v} \in V \text{ such that } v + ({-v}) = 0
-	\end{align} $$
+	\end{align}
 
 and,
 
