@@ -30,7 +30,8 @@ An important concept, which is developed further below, is how sets can be used 
 
 $$
 	\begin{equation}
-		a^2 = 0
+		a^2 = 0 \\
+		b^2 = 1
 	\end{equation}
 $$
 
