@@ -24,7 +24,9 @@ An important concept, which is developed further below, is how sets can be used 
 		a^2 = 0
 	\]
 
-	$$ a^2 = 0 $$
+	$$
+		a^2 = 0
+	$$
 
 $$ \begin{equation} a^2 = 0 \end{equation} $$
 
