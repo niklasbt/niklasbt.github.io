@@ -26,6 +26,8 @@ An important concept, which is developed further below, is how sets can be used 
 
 	$$ a^2 = 0 $$
 
+$$ \begin{equation} a^2 = 0 \end{equation} $$
+
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
 Sometimes, as below, we will take liberties with notation, if it is clear in context. For example, one can consider addition of elements of $\mathbb{N}$ to be a map $+:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ such that for $a,b\in\mathbb{N}$ we write $+(a,b) \equiv a + b$.
