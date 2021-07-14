@@ -8,11 +8,11 @@ layout: default
   {%-endif-%}
 </header>
 
+<!-- Enable latex -->
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+<!-- End latex section -->
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
-
-{{ post.date | date: "%Y-%m-%d"}}
 
 {{ content }}

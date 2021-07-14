@@ -33,11 +33,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Math
-kramdown:
-  math_engine: mathjax
-  use_math: true
-
 theme_config:
   appearance: "dark"
   back_home_text: ".."
