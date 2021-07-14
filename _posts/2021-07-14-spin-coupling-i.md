@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "coupling angular momenta. part i."
+title:  "Coupling angular momenta. Part i."
+date: "%Y-%m-%d"
 categories: spin coupling
 ---
-### 1. Mathematical Background
+### Mathematical Background
 
 #### Basic concepts
 We will deal with ``sets'' and their elements; axiomatically, a set $A$ is a ``collection'' of objects. We denote that an object $a$ is a member or element of $A$ by writing $a \in A$. (E.g., the set of natural numbers $\mathbb{N}$ contains the integer 1, but not 0, i.e. $1 \in \mathbb{N}$ but $0 \notin \mathbb{N}$.) Given two sets, $A$ and $B$, we can define a correspondence or mapping of elements $a \in A$ to elements $b \in B$, such that each element $a$ is mapped uniquely to an element $b$. Such a map is called a \textbf{function}, and is denoted $f:A \to B$. We also write for $a \in A$, $a \mapsto f(a)$ for $f(a) \in B$ to denote that the element $a$ is mapped to $f(a)$ under the action of $f$. An important set for us will be the set of complex numbers, denoted $\mathbb{C}$.
