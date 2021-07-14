@@ -30,16 +30,16 @@ The types of sets that are the concern of quantum mechanics are built up from ve
 	\end{align} $$
 and,
 	$$ \begin{align}
-	&\forall\ \alpha\in\mathbb{C},\ v \in V,\ \alpha\cdotv \in V \\
-	&\forall\ \alpha\in\mathbb{C},\ v_1,v_2 \in V,\ \alpha\cdot(v_1 + v_2) = \alpha\cdotv_1 + \alpha\cdotv_1 \\
-	&\forall\ \alpha,\beta\in\mathbb{C},\ v \in V,\ (\alpha+\beta)\cdotv = \alpha\cdotv + \beta\cdotv \\
-	&\forall\ \alpha,\beta\in\mathbb{C},\ v \in V,\ (\alpha\beta)\cdotv = \alpha\cdot(\beta\cdotv) \\
-	&\forall\ v \in V,\ 1\in\mathbb{C},\ 1\cdotv = v\
+	&\forall\ \alpha\in\mathbb{C},\ v \in V,\ \alpha\cdot{v} \in V \\
+	&\forall\ \alpha\in\mathbb{C},\ v_1,v_2 \in V,\ \alpha\cdot(v_1 + v_2) = \alpha\cdot{v}_1 + \alpha\cdot{v}_1 \\
+	&\forall\ \alpha,\beta\in\mathbb{C},\ v \in V,\ (\alpha+\beta)\cdot{v} = \alpha\cdot{v} + \beta\cdot{v} \\
+	&\forall\ \alpha,\beta\in\mathbb{C},\ v \in V,\ (\alpha\beta)\cdot{v} = \alpha\cdot(\beta\cdot{v}) \\
+	&\forall\ v \in V,\ 1\in\mathbb{C},\ 1\cdot{v} = v\
 	\end{align} $$
 
-The function $(v_1,v_2)\mapsto v_1 + v_2$ is just addition in the normal sense, while $(\alpha,v)\mapsto \alpha\cdotv$ is called `scalar multiplication`.
+The function $(v_1,v_2)\mapsto v_1 + v_2$ is just addition in the normal sense, while $(\alpha,v)\mapsto \alpha\cdot{v}$ is called `scalar multiplication`.
 
-**Exercise:** Show that for $0 \in \mathbb{C}$, $0\cdotv = 0$ for all $v \in V$.
+**Exercise:** Show that for $0 \in \mathbb{C}$, $0\cdot{v} = 0$ for all $v \in V$.
 
 A standard example of a (real) vector space is again $\mathbb{R}^2$; the vectors are the ordered pairs $(a,b)$ while the scalars are simply the real numbers. We now introduce two central concepts to the algebra of vector spaces. The first is the idea of linear independence, and the second is the idea of a basis:
 
@@ -66,9 +66,10 @@ The following are some important theorems regarding the properties of bases. The
 >**Corollary:** Let $V$ be a finite dimensional vector space. Then $V$ has a finite basis.
 
 >**Theorem:** If $V$ is a finite dimensional vector space, then any two bases of $V$ have the same number of elements.
+
 	>>*Proof:* Let $\{v_1,v_2,\dots {v_n}\}$ and $\{u_1,u_2,\dots {u_m}\}$ be two bases for $V$. Then by the exchange lemma, $n \leq m$ and $m \leq n \ \square$
 
-We are now in a position to define the dimension of a finite dimensional vector space: suppose $V$ is a vector space containing a basis with $n$ elements. Then the `dimension` of $V$ is $n$, denoted by $\dimv = n$. If $V = \{0\}$ we set $\dimv = 0$.
+We are now in a position to define the dimension of a finite dimensional vector space: suppose $V$ is a vector space containing a basis with $n$ elements. Then the `dimension` of $V$ is $n$, denoted by $\dim{V} = n$. If $V = \{0\}$ we set $\dim{V} = 0$.
 
 >**Theorem:** Let $V$ be an $n$-dimensional vector space and let $\{v_1,v_2,\dots v_m\}$ be a set of linearly independent vectors. Then $m \leq n$ and there exists at set of vectors $v_{m+1},\dots,{v_n}$ such that $\{v_1,\dots v_m,v_{m+1},\dots,{v_n}\}$ is a basis for $V$.
 
