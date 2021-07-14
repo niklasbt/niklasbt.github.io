@@ -23,22 +23,22 @@ Sometimes, as below, we will take liberties with notation, if it is clear in con
 
 #### Complex vector spaces
 The types of sets that are the concern of quantum mechanics are built up from vector spaces (more specifically, [Hilbert spaces](https://en.wikipedia.org/wiki/Hilbert_space)). A `complex vector space` is a collection of elements $v \in V$ and two maps $+:V\times V \to V$ and $\cdot: \mathbb{C}\times V\to V$ that satisfies:
-	\begin{align}
+	$$ \begin{align}
 		&\forall\ v_1,v_2 \in V,\ v_1 + v_2 \in V  \\
 		&\forall\  v_1,v_2,{v_3} \in V,\ (v_1 + v_2) + {v_3} = v_1 + (v_2 + {v_3}) \\
 		&\forall\  v_1,v_2 \in V,\ v_1 + v_2 = v_2 + v_1  \\
 		&\exists\  0 \in V, \text{ such that } \forall\ v \in V,\ v + 0 = v  \\
 		&\forall\ v \in V,\ \exists\ {-v} \in V \text{ such that } v + ({-v}) = 0
-	\end{align}
+	\end{align} $$
 
 and,
-\begin{align}
+$$ \begin{align}
 	&\forall\ \alpha\in\mathbb{C},\ v \in V,\ \alpha\cdot{v} \in V \\
 	&\forall\ \alpha\in\mathbb{C},\ v_1,v_2 \in V,\ \alpha\cdot(v_1 + v_2) = \alpha\cdot{v}_1 + \alpha\cdot{v}_1 \\
 	&\forall\ \alpha,\beta\in\mathbb{C},\ v \in V,\ (\alpha+\beta)\cdot{v} = \alpha\cdot{v} + \beta\cdot{v} \\
 	&\forall\ \alpha,\beta\in\mathbb{C},\ v \in V,\ (\alpha\beta)\cdot{v} = \alpha\cdot(\beta\cdot{v}) \\
 	&\forall\ v \in V,\ 1\in\mathbb{C},\ 1\cdot{v} = v\
-	\end{align}
+	\end{align} $$
 
 The function $(v_1,v_2)\mapsto v_1 + v_2$ is just addition in the normal sense, while $(\alpha,v)\mapsto \alpha\cdot{v}$ is called `scalar multiplication`.
 
@@ -46,12 +46,7 @@ The function $(v_1,v_2)\mapsto v_1 + v_2$ is just addition in the normal sense, 
 
 A standard example of a (real) vector space is again $\mathbb{R}^2$; the vectors are the ordered pairs $(a,b)$ while the scalars are simply the real numbers. We now introduce two central concepts to the algebra of vector spaces. The first is the idea of linear independence, and the second is the idea of a basis:
 
-> **Linear independence:** Let $\{v_1,v_1,\dots v_m\},$ be nonzero vectors in $V$. Then this set is called linearly independent if $\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
->\begin{equation*}
-		\alpha_1v_1+\dots+\alpha_mv_m = 0
-	\end{equation*} $$
->
->we have $\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$.
+> **Linear independence:** Let $\{v_1,v_1,\dots v_m\},$ be nonzero vectors in $V$. Then this set is called linearly independent if $\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that $$ \begin{equation*} \alpha_1v_1+\dots+\alpha_mv_m = 0 \end{equation*} $$ we have $\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$.
 
 The term `independence` in this sense means that no vector in the set $\{v_m\}$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
