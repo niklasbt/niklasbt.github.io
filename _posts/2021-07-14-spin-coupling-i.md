@@ -10,15 +10,15 @@ categories: spin coupling
 ### Mathematical Background
 
 #### Basic concepts
-We will deal with `sets` and their elements; axiomatically, a set $$$A$$$ is a collection of objects. We denote that an object $$a$$ is a member or element of $$$A$$$ by writing $$$a \in A$$. (E.g., the set of natural numbers $$$\mathbb{N}$$$ contains the integer 1, but not 0, i.e. $$$1 \in \mathbb{N}$$$ but $$$0 \notin \mathbb{N}$$.) Given two sets, $$A$$ and $$B$, we can define a correspondence or mapping of elements $$a \in A$$ to elements $$b \in B$, such that each element $$a$$ is mapped uniquely to an element $$b$. Such a map is called a `function`, and is denoted $$f:A \to B$. We also write for $$a \in A$, $$$a \mapsto f(a)$$$ for $$f(a) \in B$$ to denote that the element $$a$$ is mapped to $$f(a)$$ under the action of $$f$. An important set for us will be the set of complex numbers, denoted $$\mathbb{C}$.
+We will deal with `sets` and their elements; axiomatically, a set $$A$$ is a collection of objects. We denote that an object $$a$$ is a member or element of $$A$$ by writing $$a \in A$$. (E.g., the set of natural numbers $$\mathbb{N}$$ contains the integer 1, but not 0, i.e. $$1 \in \mathbb{N}$$ but $$0 \notin \mathbb{N}$$.) Given two sets, $$A$$ and $$B$, we can define a correspondence or mapping of elements $$a \in A$$ to elements $$b \in B$, such that each element $$a$$ is mapped uniquely to an element $$b$. Such a map is called a `function`, and is denoted $$f:A \to B$. We also write for $$a \in A$, $$a \mapsto f(a)$$ for $$f(a) \in B$$ to denote that the element $$a$$ is mapped to $$f(a)$$ under the action of $$f$. An important set for us will be the set of complex numbers, denoted $$\mathbb{C}$.
 
 An important concept, which is developed further below, is how sets can be used to construct new sets. One straightforward way to do this is, given two sets $$A$$ and $$B$, to define a new set composed of all ordered pairs $$(a,b)$$ of elements $$a \in A$$ and $$b \in B$. This new set is called the `Cartesian or direct product` and is denoted,
 
-	$$
-		\begin{equation}
+$$
+	\begin{equation}
 		A \times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\}
-		\end{equation}
-	$$
+	\end{equation}
+$$
 
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $$\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
@@ -55,7 +55,7 @@ The function $$(v_1,v_2)\mapsto v_1 + v_2$$ is just addition in the normal sense
 
 A standard example of a (real) vector space is again $$\mathbb{R}^2$; the vectors are the ordered pairs $$(a,b)$$ while the scalars are simply the real numbers. We now introduce two central concepts to the algebra of vector spaces. The first is the idea of linear independence, and the second is the idea of a basis:
 
-> **Linear independence:** Let $$\{v_1,v_1,\dots v_m\},$$ be nonzero vectors in $$V$. Then this set is called linearly independent if $$\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$$ such that $$$$ \begin{equation*} \alpha_1v_1+\dots+\alpha_mv_m = 0 \end{equation*} $$$$ we have $$\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$.
+> **Linear independence:** Let $$\{v_1,v_1,\dots v_m\},$$ be nonzero vectors in $$V$. Then this set is called linearly independent if $$\forall\ \alpha_1,\dots,\alpha_m \in \mathbb{C}$$ such that $$$ \begin{equation*} \alpha_1v_1+\dots+\alpha_mv_m = 0 \end{equation*} $$$ we have $$\alpha_1 = \alpha_2 = \dots = \alpha_m = 0$.
 
 The term `independence` in this sense means that no vector in the set $$\{v_m\}$$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
