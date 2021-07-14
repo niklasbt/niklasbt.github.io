@@ -3,9 +3,9 @@ layout: post
 title:  "coupling angular momenta. part i."
 categories: spin coupling
 ---
-## 1. Mathematical Background
+### 1. Mathematical Background
 
-### Basic concepts
+#### Basic concepts
 We will deal with ``sets'' and their elements; axiomatically, a set $A$ is a ``collection'' of objects. We denote that an object $a$ is a member or element of $A$ by writing $a \in A$. (E.g., the set of natural numbers $\mathbb{N}$ contains the integer 1, but not 0, i.e. $1 \in \mathbb{N}$ but $0 \notin \mathbb{N}$.) Given two sets, $A$ and $B$, we can define a correspondence or mapping of elements $a \in A$ to elements $b \in B$, such that each element $a$ is mapped uniquely to an element $b$. Such a map is called a \textbf{function}, and is denoted $f:A \to B$. We also write for $a \in A$, $a \mapsto f(a)$ for $f(a) \in B$ to denote that the element $a$ is mapped to $f(a)$ under the action of $f$. An important set for us will be the set of complex numbers, denoted $\mathbb{C}$.
 
 An important concept, which is developed further below, is how sets can be used to construct new sets. One straightforward way to do this is, given two sets $A$ and $B$, to define a new set composed of all ordered pairs $(a,b)$ of elements $a \in A$ and $b \in B$. This new set is called the \textbf{Cartesian or direct product} and is denoted,
@@ -16,7 +16,7 @@ The familiar example is the construction of the Euclidean plane by taking the di
 
 Sometimes, as below, we will take liberties with notation, if it is clear in context. For example, one can consider \textit{addition} of elements of $\mathbb{N}$ to be a map $+:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ such that for $a,b\in\mathbb{N}$ we write $+(a,b) \equiv a + b$. Henceforth, numbers (scalars) will be denoted with normal-weight typeface, vectors will be denoted with lowercase bold-weight typeface, and vector spaces will be denoted with uppercase typeface (\textit{vide infra}). Later we will introduce Dirac (bra--ket) notation for vectors.
 
-## Complex vector spaces
+#### Complex vector spaces
 The types of sets that are the concern of quantum mechanics are built up from vector spaces (more specifically the structure of a Hilbert space). A \textbf{complex vector space} is a collection of elements $\bm{v} \in V$ and two maps $+:V\times V \to V$ and $\cdot: \mathbb{C}\times V\to V$ that satisfies:
 	\begin{align}
 		&\forall\ \bm{v_1},\bm{v_2} \in V,\ \bm{v_1} + \bm{v_2} \in V \text{ (\textit{closure})} \\
