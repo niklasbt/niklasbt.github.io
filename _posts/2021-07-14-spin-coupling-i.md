@@ -18,9 +18,7 @@ An important concept, which is developed further below, is how sets can be used 
 		A \times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\}
 	\end{equation}
 
-	$$
-		A \times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\}
-	$$
+	$$ A \times B \equiv \{(a,b)\mid a \in A \text{ and } b\in B\} $$
 
 The familiar example is the construction of the Euclidean plane by taking the direct product of the real numbers with itself, $\mathbb{R}^2 \equiv \mathbb{R}\times\mathbb{R}$.
 
