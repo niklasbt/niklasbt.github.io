@@ -13,4 +13,6 @@ layout: default
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
 
+{{ post.date | date: "%Y-%m-%d"}}
+
 {{ content }}
