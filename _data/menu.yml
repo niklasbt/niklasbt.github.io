@@ -15,6 +15,7 @@ entries:
   - title: all posts
     post_list:
       limit: 5
+      date: "%Y-%m-%d"
       show_more: true
       show_more_text: archive...
       show_more_url: /archive/
