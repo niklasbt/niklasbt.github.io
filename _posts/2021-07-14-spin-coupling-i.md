@@ -59,13 +59,13 @@ A standard example of a (real) vector space is again $$\mathbb{R}^2$$; the vecto
 
 The term `independence` in this sense means that no vector in the set $$\{v_m\}$$ can be expressed in terms of any other vector in the set. A linearly dependent set of vectors is simply one that is not linearly independent. Now we define the idea of a spanning set and a basis:
 
-> **Spanning sets and bases:** Let $$S = \{v_1,v_2,\dots v_m\}$, be a set of vectors in $$V$. The *span* of $$S = \{ \sum_{i=1}^m{\alpha_iv_i} \ \text{s.t.}\ \alpha_i \in \mathbb{C} \}$$ Denote this subset of $$V$$ by $$\text{span} \ {S}$. If $$\text{span} \ {S} = V$$ then $$S$$ is called a *spanning set* for V. A spanning set is called a *basis* if it is also linearly independent.
+> **Spanning sets and bases:** Let $$S = \{v_1,v_2,\dots v_m\}$, be a set of vectors in $$V$. The *span* of $$S = \{ \sum_{i=1}^m{\alpha_iv_i} \ \text{s.t.}\ \alpha_i \in \mathbb{C} \}$$ Denote this subset of $$V$$ by $$\text{span} \ {S}$$. If $$\text{span} \ {S} = V$$ then $$S$$ is called a *spanning set* for V. A spanning set is called a *basis* if it is also linearly independent.
 
 The following are some important theorems regarding the properties of bases. The key take away will be that, if a vector space has a finite basis, say with $$n$$ elements, then we know that any basis will have $$n$$ elements. Moreover, this provides a definition for the `dimension` of a vector space. Later, we will be considering only `finite dimensional vector spaces`, which can be defined as those vector spaces which possess finite spanning sets.
 
 >**Lemma:** Let $$\{v_1,v_2,\dots {v_n}\}$$ be a linearly dependent set of vectors in $$V$$. Then there exists $$k$$ such that $$1 < k \leq n$$ such that $${v_k}$$ is a linear combination of $$v_1,\dots {v_{k-1}}$$.
 
->**Exchange lemma:** Let $$U = \{u_1,u_2,\dots {u_m}\}$$ be a spanning set for the vector space $$V$$. Then if $$\{v_1,v_2,\dots {v_n}\}$$ is a linearly independent set of vectors in $$V$, $$n \leq m$$.
+>**Exchange lemma:** Let $$U = \{u_1,u_2,\dots {u_m}\}$$ be a spanning set for the vector space $$V$$. Then if $$\{v_1,v_2,\dots {v_n}\}$$ is a linearly independent set of vectors in $$V$$, $$n \leq m$$.
 
 >**Corollary:** Let $$V$$ be a finite dimensional vector space. Then $$V$$ has a finite basis.
 
