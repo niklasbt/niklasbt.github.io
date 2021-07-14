@@ -60,9 +60,9 @@ The term `independence` in this sense means that no vector in the set $\{v_m\}$ 
 
 > **Spanning sets and bases:** Let $S = \{v_1,v_2,\dots v_m\}$, be a set of vectors in $V$. The *span* of $S$ is the set of all vectors $v \in V$ such that $\exists$ a set of scalars $\alpha_1,\dots,\alpha_m \in \mathbb{C}$ such that
 >
->	$$\begin{equation*}
+> \begin{equation*}
 		v = \sum_{i = 1}^m{\alpha_i{v_i}}
-	\end{equation*}$$
+	\end{equation*}
 >
 > and denote this subset of $V$ by $\text{span} \ {S}$. If $\text{span} \ {S} = V$ then $S$ is called a *spanning set* for V. A spanning set is called a *basis* if it is also linearly independent.
 
