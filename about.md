@@ -11,3 +11,5 @@ I am particularly interested in electronic structure aspects of transition metal
 There is a rich electronic landscape to explore as one hierarchically ascends from mononuclear $\rightarrow$ polynuclear $\rightarrow$ nanoscale transition metal materials, with novel phenomena emerging at each increase in length scale.
 
 More on these topics can be found in my [published work](https://scholar.google.com/citations?user=4OvsMZoAAAAJ&hl=en).
+
+update

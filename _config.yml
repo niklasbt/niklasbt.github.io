@@ -42,10 +42,8 @@ theme_config:
 sass:
   style: :compressed
 
+# Footer
 footer_content: "Niklas B. Thompson &copy <script>document.write(new Date().getFullYear())</script>"
-
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

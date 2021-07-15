@@ -1,5 +1,6 @@
 ---
 layout: default
+last_edit_time_format: "%b %e %Y at %I:%M %p"
 ---
 
 {%-include back_link.html-%}
@@ -15,3 +16,31 @@ layout: default
 </article>
 
 {%-include footer_custom.html-%}
+
+<p>
+  UPDATE TEST
+<script type="text/javascript">
+    function setAccessedDate() {
+      if (document.getElementById('accessed-on')) {
+        var now = new Date();
+        var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        var formattedDate = now.getDate().padStart(2,'0')+" "+months[now.getMonth()]+" "+now.getFullYear();
+        document.getElementById('accessed-on').textContent = " (accessed " + formattedDate + ")";
+      }
+    }
+    function setModifiedDate() {
+      if (document.getElementById('last-modified')) {
+        fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}")
+          .then((response) => {
+            return response.json();
+          })
+          .then((commits) => {
+            var modified = commits[0]['commit']['committer']['date'].slice(0,10);
+            if(modified != "{{ page.date | date: "%Y-%m-%d" }}") {
+              document.getElementById('last-modified').textContent = "Last Modified: " + modified;
+            }
+          });
+      }
+    }
+  </script>
+</p>
