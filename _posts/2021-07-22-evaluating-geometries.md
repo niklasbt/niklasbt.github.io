@@ -27,4 +27,10 @@ I call this "na&iuml;ve", let's see where it fails.
 
 ### Failure of the na&iuml;ve approach
 
+As a simple example, I consider two constrained surface scans of 1,2-dichloroethane, namely, (i) scanning the C--C distance about its equilibrium value (151 pm), and (ii) scanning the Cl--C--C--Cl dihedral about its equilibrium value (180$^\circ$):
+
+![naive_loss](/assets/evaluating-geometries/naive_loss.svg)
+
+Here the implementation of the loss function $(1)$ above that I'm using ignores contributions from the C--H bonds, since these distances are usually not accurately determined experimentally.
+
 [^1]: [A representative example](https://pubs.acs.org/doi/10.1021/ct200187d) of where this can be frustrating. I by no means want to indict these authors in particular, but I think this "semi-quantitative" treatment of ab initio geometries is quite typical.
