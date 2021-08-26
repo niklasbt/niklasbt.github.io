@@ -5,6 +5,18 @@ last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 {%-include back_link.html-%}
 
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>

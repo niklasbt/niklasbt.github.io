@@ -2,7 +2,7 @@
 layout: post
 title:  "Coupling angular momenta. Part i."
 date: 2021-07-14
-categories: spin coupling
+categories: [quantum chemistry]
 ---
 
 *The following is part of a series of notes I prepared to teach graduate students at MIT the basics of coupling quantum-mechanical angular momenta during the lockdown of 2020.*

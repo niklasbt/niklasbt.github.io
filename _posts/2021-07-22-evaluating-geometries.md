@@ -2,7 +2,7 @@
 layout: post
 title:  "evaluating molecular geometries"
 date: 2021-07-22
-categories: quantum chemistry
+categories: [quantum chemistry]
 ---
 
 A typical problem in the quantum chemistry workflow is evaluating how "good" a computed geometry is against some experimental data (e.g., the geometry determined from X-ray diffraction). Despite how commonly this arises in the literature, I seldom see truly quantitative approaches to this problem. One typically sees authors say something like,

@@ -24,6 +24,10 @@
 
 ## synthesis
 
+- 1993~2007 **synthesis**
+  - 1993/07 a
+  - 1998/07 b
+  - 2007/10 c
 - 1993/07 first [Co<sub>4</sub>O<sub>4</sub>] cubane isolated ([Christou](https://pubs.acs.org/doi/abs/10.1021/ja00067a077))
 - 1998/07 [4OAc-4py] isolated ([Beattie](https://www.sciencedirect.com/science/article/pii/S0277538797003008?via%3Dihub))
 - 2007/10 improved synthesis ([Das](https://pubs.acs.org/doi/10.1021/ic7011759))
@@ -63,5 +67,8 @@
 
 ## cubane heterogenization
 
+- 2014~2019 **cubane heterogenization**
+  - 2014/01 a
+  - 2019/05 b
 - 2014/01 supported catalysis ([Li, Sun](https://doi.org/10.1021/cs401109u))
 - 2019/05 cubane@MOF ([Billinge, Tilley](https://www.pnas.org/content/116/24/11630.short))
