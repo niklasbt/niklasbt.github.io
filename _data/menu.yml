@@ -3,9 +3,9 @@
 
 entries:
   - title: info
-    url: info
     entries:
-      - title: "Personal website of <a href='about'>Niklas B. Thompson</a>"
+      - title: "<a href='about'>About me</a>"
+      - title: "<a href='info'>About this website</a>"
 
   - title: contact
     url: contact
