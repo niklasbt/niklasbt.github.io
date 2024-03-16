@@ -1,5 +1,5 @@
 # ferrous
 
-![alignment of human Apolipoprotein E and dystonin.](assets/images/alignment.png)
+<img src="assets/images/alignment.png", width="100%"/>
 
 Personal webpage of Niklas B. Thompson

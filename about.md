@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![alignment of human Apolipoprotein E and dystonin.](assets/images/alignment.png)
+<img src="assets/images/alignment.png", width="100%"/>
 
 ## Biosketch
 I completed my Ph.D. in inorganic chemistry under [Jonas C. Peters](https://jcpgroup.caltech.edu) at Caltech. My dissertation research focused on [nitrogen fixation](https://en.wikipedia.org/wiki/Abiological_nitrogen_fixation_using_homogeneous_catalysts) via transition metal complexes, with a particular focus on the chemistry of iron. As an undergraduate at the University of Chicago, I obtained dual B.Sc. degrees in chemistry and mathematics, studying under the late [Gregory L. Hillhouse](http://glh-group.uchicago.edu).
