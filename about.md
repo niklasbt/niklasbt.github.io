@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<img src="assets/images/alignment.png", width="100%"/>
-
 ## Biosketch
 I completed my Ph.D. in inorganic chemistry under [Jonas C. Peters](https://jcpgroup.caltech.edu) at Caltech. My dissertation research focused on [nitrogen fixation](https://en.wikipedia.org/wiki/Abiological_nitrogen_fixation_using_homogeneous_catalysts) via transition metal complexes, with a particular focus on the chemistry of iron. As an undergraduate at the University of Chicago, I obtained dual B.Sc. degrees in chemistry and mathematics, studying under the late [Gregory L. Hillhouse](http://glh-group.uchicago.edu).
 
@@ -14,6 +12,10 @@ Following the completion of my doctoral studies in 2018, I moved to Cambridge, M
 Delving into the complex electronic structures of metalloclusters forced my thinking beyond the molecular (few-&#8491;) scale. Indeed, many [interesting and unresolved questions](https://pubs.acs.org/doi/abs/10.1021/ja00226a025) emerge from the study of magnetic clusters with respect to their nano- and mesoscale properties. Moreover, the [lability](https://www.pnas.org/doi/abs/10.1073/pnas.2210528120) of, in particular, iron&ndash;sulfur clusters demands us to understand not only *intra*molecular structure, but also interactions beyond the primary coordination sphere of the metal ions. With this in mind, in 2021 I joined the [Solar Energy Conversion Group](https://blogs.anl.gov/solar-energy/) at Argonne National Laboratory as a postdoctoral appointee under the supervision of [David M. Tiede](https://www.anl.gov/profile/david-m-tiede) and [Karen L. Mulfort](https://www.anl.gov/profile/karen-l-mulfort). 
 
 At Argonne, I am interested in developing methodologies to study the local atomic structure of complex systems via total X-ray scattering. This work synthesizes atomistic simulation with experimental scattering studies, the latter conducted principally at the [Advanced Photon Source](https://www.aps.anl.gov) (and occasionally at [PETRA III](https://photon-science.desy.de/facilities/petra_iii/index_eng.html)). My initial interest in total scattering methodologies was due to the remarkable ability of this technique to elucidate solvation structure directly (<i>in situ</i>), and with exquisite resolution (sub-&#8491;). While this remains a focus of my research activity at Argonne, experience with synchrotron X-ray scattering (diffraction) has also widened my interests into materials science, in particular, characterization of the atomic structures of complex, hierarchical materials, such as [dye-sensitized metal-oxide thin films](https://en.wikipedia.org/wiki/Dye-sensitized_solar_cell), relevant for artifical photosynthesis applications. 
+
+<hr>
+<img src="/assets/images/alignment.png" width="100%"/>
+<hr>
 
 ## Research interests
 My research praxis is: Ask, precise, philisophico-scientific questions, develop the appropriate <i>ansatz</i> to interrogate those questions, and verify (or dispell) that <i>ansatz</i> through an attempted reconcilliation between experiment and theory. 
