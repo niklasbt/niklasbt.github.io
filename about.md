@@ -36,15 +36,30 @@ That said, there are certain, privileged classes of cofactors which can be prepa
 ### Spectroscopy
 Spectroscopy, broadly interpreted, encompasses all light--matter interactions. For the chemist, this means different things at different frequencies.
 
-At very low frequencies, $\mathcal{O}(1\text{ MHz})$, and in reasonable magnetic field strengths, one can probe the nuclear Zeeman interaction (NMR spectroscopy). At slightly higher frequencies, $\mathcal{O}(1\text{ GHz})$, but similar field strengths, one instead probes the electronic Zeeman interaction (EPR spectroscopy). At still higher frequencies, $\mathcal{O}(1\text{ THz})$, one probes the vibronic (photonic) modes typical of materials (IR spectroscopy). Higher, still, $\mathcal{O}(1\text{ PHz})\sim\mathcal{O}(1\text{ eV})$, transitions between electronic states (UV-vis spectroscopy). In the low-energy gamma regime, 14.412 keV, one finds the first nuclear excited state of <sup>57</sup>Fe. In a similar regime, $\mathcal{O}(1\text{ keV})$, one finds the 3d metal K-edges.
+At very low frequencies, $\mathcal{O}(1\text{ MHz})$, and in reasonable magnetic field strengths, one can probe the nuclear Zeeman interaction (NMR spectroscopy). At slightly higher frequencies, $\mathcal{O}(1\text{ GHz})$, but similar field strengths, one instead probes the electronic Zeeman interaction (EPR spectroscopy). At still higher frequencies, $\mathcal{O}(1\text{ THz})$, one probes the vibrational (vibronic; if you like, phononic) modes typical of materials (IR spectroscopy). Higher, still, $\mathcal{O}(1\text{ PHz})\sim\mathcal{O}(1\text{ eV})$, transitions between electronic states (UV-vis spectroscopy). In the low-energy gamma regime, 14.412 keV, one finds the first nuclear excited state of <sup>57</sup>Fe (M&ouml;&szlig;bauer spectroscopy). In a similar regime, $\mathcal{O}(1\text{ keV})$, one finds the 3d metal K-edges (a typical X-ray absorption spectroscopy energy).
 
-All of which is to say, there are a plethora of spectroscopies available, sensitive to distinct aspects of the generic chemical system. Typically, multiple distinct spectroscopic modalities are necessary to even approach what could be called an understanding of any such system. Of course, the boundaries above are not strict, and many interesting phenomena occur when there is significant spectral overlap between distinct modalities of light--matter interaction.
+All of which is to say, there are a plethora of spectroscopies, sensitive to distinct aspects of the generic 'chemical system'. Typically, multiple distinct spectroscopic modalities are necessary to even approach what could be called 'understanding' of any such system. 
+
+Of course, the boundaries above are not strict, and many interesting phenomena occur when there is significant spectral overlap between distinct modalities of light--matter interaction.
 
 #### X-ray Scattering
-At very high photon energies, in the X-ray regime, and especially in the so-called 'hard' X-ray regime (say, $\mathcal{O}[1\text{ MeV}]$), the light--matter interaction is intrinsically weak. So weak, indeed, that the probability that photons impinging on a nucleus simply scatter, elastically, off of the core electron density, becomes significant. If a coherent source of X-rays is used to illuminate a collection of atoms, then the elastic scattering of these coherent photons records, through their mutual interference, two-body information pertaining to the collection of atoms. 
+At very high photon energies, in the X-ray regime, and especially in the so-called 'hard' X-ray regime (say, $\mathcal{O}[0.1\text{ MeV}]$), the light--matter interaction is intrinsically weak. So weak, indeed, that the probability that photons impinging on a nucleus simply scatter, elastically, off of the core electron density (the K-shell), becomes significant.[^hex] If a coherent source of X-rays is used to illuminate a collection of atoms, then the elastic scattering of these coherent photons records, through their mutual interference, two-body information[^coherent_scattering] pertaining to the collection of atoms.[^iaa]
 
-Hence, we have 'diffraction', as such, from the point-like Bragg scattering of (ideally) infinite lattices to the diffuse halos of 'amorphous' systems. Some, no doubt, would object to the classification of X-ray scattering as a category of spectroscopy; but, if photons admit a continuous spectrum, why not spectroscopy, if one understands it as light--matter interaction?
+Hence, we have 'diffraction', as such, from the point-like[^dirac_delta] Bragg scattering of (ideally) infinite lattices (at 0 K) to the diffuse halos of 'amorphous'[^amorphous] systems. Some, no doubt, would object to the classification of X-ray scattering as a category of spectroscopy; but, if photons admit a continuous spectrum, why not spectroscopy, if one understands it as light--matter interaction?
 
 ### Quantum chemistry
-Under construction...
+Under the Born-Oppenheimer approximation, chemistry, as such, occurs at the level of electron dynamics. Hence, reified in contemporary (organic) synthesis, we have the `arrow-pushing diagram'. According to Dirac, one is, in fact, concerned with solutions ($\psi$) to the time-independent eigenproblem,
 
+$$
+    (i{\not{\partial}} - m)\psi(\mathbf{x}) = \mathbf{0}
+$$
+
+Here, $\mathbf{x}$ lives in the four-dimensional space-time[^space-time], and $\mathbf{0}$ is the zero functional living in spacetime, considered as a Hilbert space. Hence, we reason at the level of [functional analysis](https://en.wikipedia.org/wiki/Functional_analysis).
+
+<hr>
+[^coherent_scattering]: And nothing more.
+[^iaa]: More precisely, the electron density associated with said atoms, ensemble-averaged.
+[^hex]: There remains, also, inelastic scattering, and, of course, a finite probability for any photon to be absorbed by the atom.
+[^dirac_delta]: Here, we might be tempted to understand: 'Dirac $\delta$ function'. But, following von Neumann, this is not even well-defined. One must ground oneself in measure-theoretic probability theory and the Lebesgue measure to even *define* such a function.
+[^amorphous]: 'Amorphous', of course, can only be defined according to its dual, length-scale. Many optically-amorphous materials (*i.e.*, glasses) are of course highly structured on the &Aring; to nm length-scale (interacting with photons of commensurate wave-length).
+[^space-time]: A concept due to Minkowski.
