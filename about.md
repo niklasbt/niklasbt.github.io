@@ -40,7 +40,7 @@ That said, there are certain, privileged classes of cofactors which can be prepa
 ### Spectroscopy
 Spectroscopy, broadly interpreted, encompasses all light--matter interactions. For the chemist, this means different things at different frequencies.
 
-At very low frequencies, $\mathcal{O}(1\text{ MHz})$, and in reasonable magnetic field strengths, one can probe the nuclear Zeeman interaction (NMR spectroscopy). At slightly higher frequencies, $\mathcal{O}(1\text{ GHz})$, but similar field strengths, one instead probes the electronic Zeeman interaction (EPR spectroscopy). At still higher frequencies, $\mathcal{O}(1\text{ THz})$, one probes the vibrational (vibronic; if you like, phononic) modes typical of materials (IR spectroscopy). Higher, still, $\mathcal{O}(1\text{ PHz})\sim\mathcal{O}(1\text{ eV})$, transitions between electronic states (UV-vis spectroscopy). In the low-energy gamma regime, 14.412 keV, one finds the first nuclear excited state of <sup>57</sup>Fe (M&ouml;&szlig;bauer spectroscopy). In a similar regime, $\mathcal{O}(1\text{ keV})$, one finds the 3d metal K-edges (a typical X-ray absorption spectroscopy energy).
+At very low frequencies, $\mathcal{O}(1\text{ MHz})$, and in reasonable magnetic field strengths, one can probe the nuclear Zeeman interaction (NMR spectroscopy). At slightly higher frequencies, $\mathcal{O}(1\text{ GHz})$, but similar field strengths, one instead probes the electronic Zeeman interaction (EPR spectroscopy). At still higher frequencies, $\mathcal{O}(1\text{ THz})$, one probes the vibrational (vibronic; if you like, phononic) modes typical of molecular materials (IR spectroscopy). Higher, still, $\mathcal{O}(1\text{ PHz})\sim\mathcal{O}(1\text{ eV})$, transitions between electronic states (UV-vis spectroscopy). In the low-energy gamma regime, 14.412 keV, one finds the first nuclear excited state of <sup>57</sup>Fe (M&ouml;&szlig;bauer spectroscopy). In a similar regime, $\mathcal{O}(1\text{ keV})$, one finds the 3d metal K-edges (a typical X-ray absorption spectroscopy energy).
 
 All of which is to say, there are a plethora of spectroscopies, sensitive to distinct aspects of the generic 'chemical system'. Typically, multiple distinct spectroscopic modalities are necessary to even approach what could be called 'understanding' of any such system. 
 
@@ -52,13 +52,31 @@ At very high photon energies, in the X-ray regime, and especially in the so-call
 Hence, we have 'diffraction', as such, from the point-like[^dirac_delta] Bragg scattering of (ideally) infinite lattices (at 0 K) to the diffuse halos of 'amorphous'[^amorphous] systems. Some, no doubt, would object to the classification of X-ray scattering as a category of spectroscopy; but, if photons admit a continuous spectrum, why not spectroscopy, if one understands it as light--matter interaction?
 
 ### Quantum chemistry
-Under the Born-Oppenheimer approximation, chemistry, as such, occurs at the level of electron dynamics. Hence, reified in contemporary (organic) synthesis, we have the `arrow-pushing diagram'. According to Dirac, one is, in fact, concerned with solutions ($\psi$) to the time-independent eigenproblem,
+Under the Born-Oppenheimer approximation, chemistry, as such, occurs at the level of electron dynamics. Hence, reified in contemporary (organic) synthesis, we have the `arrow-pushing diagram'. At the most elementary, leaving dynamics aside, one is concerned with solutions ($\psi$) to the time-independent eigenproblem,
 
 $$
     (i{\not{\partial}} - m)\psi(\mathbf{x}) = \mathbf{0}
 $$
 
 Here, $\mathbf{x}$ lives in the four-dimensional space-time[^space-time], and $\mathbf{0}$ is the zero functional living in spacetime, considered as a Hilbert space. Hence, we reason at the level of [functional analysis](https://en.wikipedia.org/wiki/Functional_analysis).
+
+Despite the apparent simplicity of this eigenproblem, difficulties arise from the added complexity incurred by passing from this simple 1-particle system to the generic $N$-body problem. Dirac summarizes,
+
+> The fundamental laws necessary for the mathematical treatment of a large part of physics and the whole of chemistry are thus completely known, and the difficulty lies only in the fact that application of these laws leads to equations that are too complex to be solved.
+
+Hence, contemporary electronic structure theories all represent different approaches to simplifying the complexity of these equations. We have an 'exact' theory, but must rely on developing practicable <i>ans&auml;tze</i> to approximate solutions.
+
+#### Density Functional Theory
+
+For transition metal complexes, and indeed, for all of chemistry and materials science, density functional theory (DFT) is the most popular single-reference <i>ansatz</i> to the time-independent, non-relativistic electronic structure problem. Its popularity is due to the favorable complexity scaling of the $N$-body DFT problem, which is polynomial ($\mathcal{O}[N^3]$), meaning that systems containing hundreds to thousands of atoms are tractable. DFT achieves this by reformulating the electronic structure problem from one of obtaining the correct $N$-body wavefunction, to obtaining the correct electron density that is (uniquely) associated with that wavefunction.
+
+
+The central difficulty of DFT lies in the following: Although it is a provably-exact theory, we simply do not know the correct formulation of the DFT equations. If, as claimed by Dirac, the time-independent, non-relativistic Schr&ouml;dinger wave-equation is an exact theory we can only solve approximately, then, in practice, DFT is an approximate theory we can solve exactly. Approximate, in that one must make some *a priori* choice for parameterizing the DFT equations, leading to the abundance of DFT formulations present in the literature. Beyond the risk of choice overload this induces, DFT presents other difficulties as well, such as the lack of proper spin-symmetry.
+
+Nevertheless, with experience, DFT can provide detailed insights into electronic structure. One can even glean important qualitative details for systems where the lack of proper spin-symmetry might appear to make DFT an altogether inappropriate *ansatz*, as demonstrated by the relative success of so-called 'broken-symmetry' calculations.  
+
+#### Approximate approaches to Full Configuration Interaction
+Under construction...
 
 <hr>
 [^coherent_scattering]: And nothing more.
