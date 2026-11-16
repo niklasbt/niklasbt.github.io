@@ -7,7 +7,11 @@ title: "<i>A. millefolium</i>"
 Common yarrow
 </p>
 
-![a_millefolium_flower](/assets/images/plantae/a_millefolium_flower.jpg)
+{% include figure.html 
+  src='/assets/images/plantae/a_millefolium_flower.jpg'
+  alt='flower'
+  caption='flower'
+%}
 
 >**ORDER**:&nbsp;&nbsp;&nbsp;&nbsp;Asterales\
 >**FAMILY**:&nbsp;&nbsp;&nbsp;Asteraceae\
