@@ -3,3 +3,14 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# macOS
+.DS_Store
+
+# Archived posts (kept local only)
+_posts/arx-*
+
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md

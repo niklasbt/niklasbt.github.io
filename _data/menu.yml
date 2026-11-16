@@ -13,12 +13,15 @@ entries:
   - title: publications
     url: https://scholar.google.com/citations?user=4OvsMZoAAAAJ&hl=en
 
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: archive...
-      show_more_url: /archive/
+  - title: plantae
+    url: plantae
+
+#  - title: all posts
+#    post_list:
+#      limit: 5
+#      show_more: true
+#      show_more_text: archive...
+#      show_more_url: /archive/
 
   # - title: info
   #   entries:
